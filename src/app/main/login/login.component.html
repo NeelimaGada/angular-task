@@ -1,0 +1,33 @@
+    <div class=" col-5 container mt-5">
+            <h4> LOGIN</h4>
+            <form [formGroup]="login" (submit)="sub(login.value)">
+                <div class="Jumbotron form-group">
+                        <label>Username</label>
+                        <input type="text" formControlName="username" class="form-control"[ngClass]="{ 'is-invalid': submitted && f.username.errors }" />
+                        <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+                            <div *ngIf="f.username.errors.required">Username is Required</div>
+                        </div>
+                        <label>Password</label>
+                            <input type="text" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                            <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                                <div *ngIf="f.password.errors.required">phone is required</div>
+                            </div>
+                            <label>Confirm Password</label>
+                            <input type="text" formControlName="conpassword" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.conpassword.errors }" />
+                            <div *ngIf="submitted && f.conpassword.errors" class="invalid-feedback">
+                                <div *ngIf="f.conpassword.errors.required">phone is required</div>
+                            </div>
+                            <p *ngIf="login.getError('mismatch')" style="color: red">Password does not match</p>
+                </div>
+                <br>
+        
+                <button class="btn btn-success btn-lg" [disabled]="!login.valid" >Login</button>
+                <div *ngIf="val">
+                        <p style="color: red">Please enter Valid Credentials </p>
+                    </div>
+                
+            
+                </form>
+                <br>
+                
+            </div>

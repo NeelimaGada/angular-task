@@ -1,0 +1,43 @@
+.top {
+    color: #ff9429;
+    font-size: 50px;
+    font-style: oblique;
+       
+  }
+  .top-left {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+  }
+  .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 100px;
+    color: #2a50ac;
+    font-style: New Century Schoolbook, TeX Gyre Schola, serif	
+    }
+  .effect1{
+      
+              box-shadow: 0 5px 6px -6px #777;
+              height: 60px;
+  }
+  .example1 {
+    border:none;
+    padding: 15px;
+    border-radius: 25px;
+   color: #2a50ac;
+    background: #ff9429;
+  }
+  .button:focus {outline:none
+      
+  }
+ 
+    .image{
+        height: 80%;
+        background-size:cover;background-repeat: no-repeat; 
+        width: 100%;
+        background-image: url('/assets/p15.jpg');
+        background-position: center center;
+      }

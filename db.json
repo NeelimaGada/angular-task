@@ -1,0 +1,97 @@
+{
+  "posts": [
+    {
+      "firstname": "cxvxc",
+      "lastname": "vxcvxc",
+      "gender": "male",
+      "email": "cvxcv@dfgdg",
+      "username": "fdhfghfgh",
+      "mobileno": "8121881264",
+      "courses": "Angular",
+      "addresses": [
+        {
+          "city": "sfsdfdfd",
+          "state": "Andhra Pradesh",
+          "village": "dgfh",
+          "pincode": "500045"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "firstname": "vbnbnm",
+      "lastname": "bnm,nm,",
+      "gender": "male",
+      "email": "mn,n@fhghj",
+      "username": "hjhkhjk",
+      "mobileno": "8121881264",
+      "courses": "Angular",
+      "addresses": [
+        {
+          "city": "sfsdfdfd",
+          "state": "Andhra Pradesh",
+          "village": "hjkj",
+          "pincode": "500045"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "firstname": "hfghfg",
+      "lastname": "fdgfdg",
+      "gender": "male",
+      "email": "fghfg@gfd",
+      "username": "g",
+      "mobileno": "8121881264",
+      "courses": "Java",
+      "addresses": [
+        {
+          "city": "sfsdfdfd",
+          "state": "Andhra Pradesh",
+          "village": "fghhfghfgh",
+          "pincode": "500045"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "firstname": "neelima",
+      "lastname": "gada",
+      "gender": "female",
+      "email": "neelima@ojas.com",
+      "username": "neelima",
+      "mobileno": "8121881264",
+      "courses": "Angular",
+      "addresses": [
+        {
+          "city": "sfsdfdfd",
+          "state": "Andhra Pradesh",
+          "village": "hyderabad",
+          "pincode": "500045"
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "img": "assets/jobs.png"
+    },
+    {
+      "id": 2,
+      "img": "assets/p9.png"
+    },
+    {
+      "id": 3,
+      "img": "assets/p15.jpg"
+    },
+    {
+      "id": 4,
+      "img": "assets/jobs.png"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
